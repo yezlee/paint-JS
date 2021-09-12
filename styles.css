@@ -32,11 +32,16 @@ body {
 }
 
 .controls_left .controls_color {
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.2);
+}
+
+.controls_left .controls_color:hover {
+  box-shadow: 1px 4px 6px rgb(50 50 93 / 50%);
 }
 
 .controls_left .controls_brushRange {
@@ -77,4 +82,16 @@ body {
   text-align: center;
   font-size: 20px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);
+}
+
+.controls_action_btns button:hover {
+  box-shadow: 1px 4px 6px rgba(50, 50, 93, 0.5);
+}
+
+.bottom {
+  margin-top: 5px;
+}
+
+.bottom button {
+  background-color: #0b0a4d !important;
 }
